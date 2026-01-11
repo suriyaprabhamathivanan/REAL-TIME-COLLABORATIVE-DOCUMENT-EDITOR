@@ -14,11 +14,11 @@ DURATION: 4 WEEKS
 MENTOR: NEELA SANTHOSH
 
 
-# 📝 Collaborative Editor
+ **📝 Collaborative Editor**
 
 A real-time collaborative document editor with Google Docs-like features, built with React, Node.js, and Socket.io.
 
-## ✨ Features
+ **✨ Features**
 
 - **Real-time Collaboration**: Multiple users can edit the same document simultaneously
 - **Rich Text Editing**: Full-featured text editor with formatting options
@@ -29,15 +29,15 @@ A real-time collaborative document editor with Google Docs-like features, built 
 - **Connected Users**: See who's currently editing the document
 - **Responsive Design**: Beautiful, modern UI that works on all devices
 
-## 🚀 Getting Started
+**🚀 Getting Started**
 
-### Prerequisites
+ **Prerequisites**
 
 Make sure you have **Node.js** installed on your system.
 - Download from: https://nodejs.org/ (LTS version recommended)
 - Check installation: `node --version` and `npm --version`
 
-### Installation & Setup
+**Installation & Setup**
 
 Follow these steps after unzipping the project:
 
@@ -76,7 +76,7 @@ npm run dev
 
 This will start both the server (port 3001) and client (port 3000) simultaneously.
 
-### 🎯 Quick Start (One-liner)
+**🎯 Quick Start (One-liner)**
 
 If you prefer, you can run all installation steps at once:
 
@@ -84,21 +84,21 @@ If you prefer, you can run all installation steps at once:
 npm install && cd server && npm install && cd ../client && npm install && cd .. && npm run dev
 ```
 
-## 📖 How to Use
+ **📖 How to Use**
 
 1. **Open the app**: Navigate to `http://localhost:3000` in your browser
 2. **Create a new Space**: Click "Create New Space" on the home page
 3. **Share the Space ID**: Copy the Space ID and share it with your collaborators
 4. **Start editing**: Begin typing in the editor - changes are synchronized in real-time!
 
-### For Collaborators
+**For Collaborators**
 
 1. Get the **Space ID** from the person who created the space
 2. Open `http://localhost:3000`
 3. Paste the Space ID and enter your username
 4. Click "Join" to start collaborating!
 
-## 🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 - **Frontend**: React, Quill (Rich Text Editor)
 - **Backend**: Node.js, Express
@@ -106,7 +106,7 @@ npm install && cd server && npm install && cd ../client && npm install && cd .. 
 - **Styling**: Custom CSS with theme support
 - **Document Export**: Mammoth.js for .docx conversion
 
-## 📁 Project Structure
+**📁 Project Structure**
 
 ```
 collaborative-editor/
@@ -122,16 +122,16 @@ collaborative-editor/
 └── package.json        # Root dependencies
 ```
 
-## 🎨 Features Breakdown
+ **🎨 Features Breakdown**
 
-### Editor Controls
+**Editor Controls**
 - **Edit/View Mode**: Toggle between editing and viewing
 - **Save**: Manually save your document
 - **Theme Toggle**: Switch between light and dark themes
 - **Download**: Export as Microsoft Word (.docx) file
 - **Sidebar**: View connected users and copy Space ID
 
-### Formatting Options
+**Formatting Options**
 - Headers (H1-H6)
 - Bold, Italic, Underline
 - Text color and background color
@@ -140,19 +140,19 @@ collaborative-editor/
 - Images with resize capability
 - Code blocks and quotes
 
-## 🔧 Troubleshooting
+ **🔧 Troubleshooting**
 
-### Port already in use
+ **Port already in use**
 If you get an error about ports being in use:
 - Change the port in `client/package.json` (default is 3000)
 - Change the port in `server/server.js` (default is 3001)
 
-### Connection issues
+**Connection issues**
 - Make sure both server and client are running
 - Check that no firewall is blocking the ports
 - Ensure you're using the correct URL (http://localhost:3000)
 
-### Dependencies issues
+**Dependencies issues**
 If you encounter errors during installation:
 ```bash
 # Clear npm cache
@@ -163,17 +163,17 @@ rm -rf node_modules client/node_modules server/node_modules
 npm install && cd server && npm install && cd ../client && npm install
 ```
 
-## 📝 Notes
+ **📝 Notes**
 
 - Documents are stored in memory on the server (they will be lost when the server restarts)
 - For production use, consider adding a database for persistent storage
 - Make sure to keep the server running for real-time collaboration to work
 
-## 🤝 Contributing
+ **🤝 Contributing**
 
 Feel free to fork this project and make your own improvements!
 
-## 📄 License
+ **📄 License**
 
 This project is open source and available for educational and personal use.
 
