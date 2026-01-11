@@ -180,3 +180,7 @@ This project is open source and available for educational and personal use.
 
 **Enjoy collaborating! 🎉**
 
+**OUTPUT:**
+
+![Image](https://github.com/user-attachments/assets/8cfb8e3d-6bff-4856-9a1a-6ee095e67d1d)
+
