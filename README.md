@@ -177,7 +177,6 @@ Feel free to fork this project and make your own improvements!
 
 This project is open source and available for educational and personal use.
 
----
 
 **Enjoy collaborating! 🎉**
 
